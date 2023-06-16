@@ -12,6 +12,7 @@ public partial class MonkeysViewModel : BaseViewModel
         _monkeyService = monkeyService;
     }
 
+    
     [RelayCommand]
     private async Task GetMonkeyAsync()
     {
